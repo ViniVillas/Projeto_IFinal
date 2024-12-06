@@ -1,0 +1,179 @@
+/* Estilo global */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+header .title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+header nav {
+  display: flex;
+  gap: 10px;
+}
+
+header nav .button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+header nav .button:hover {
+  background-color: #555;
+}
+
+/* Estilo principal */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.car-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 150px;
+}
+
+/*Imagem e a logo de cada carro*/
+
+.car-info .ferrari-logo {
+  width: 150px; 
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.car-info .ferrari-image {
+  width: 900px;
+  height: auto;
+}
+
+.car-info .gordon-logo {
+  width: 200px; 
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.car-info .gordon-image {
+  width: 1150px;
+  height: auto;
+}
+
+.car-info .mclaren-logo {
+  width: 250px; 
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.car-info .mclaren-image {
+  width: 950px;
+  height: auto;
+}
+
+
+.car-info .car-description {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+
+
+/*Nome dos Carros*/
+
+.car-name {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  color: #000;
+  text-align: center;
+  font-size: 1em;
+}
+
+/* Adicionando estilo para o carrossel */
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 2em;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Adicionando estilo para os slides */
+.car-info {
+  min-width: 100%;
+  text-align: center;
+}
+
+
+/*BOTÃO SAIBA MAIS*/
+.more-info-btn {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.more-info-btn:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
