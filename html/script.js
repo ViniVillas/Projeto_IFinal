@@ -4,7 +4,7 @@ function showSlide(index) {
   const slides = document.querySelectorAll('.car-info');
   const totalSlides = slides.length;
 
-  // Ajusta o índice do slide atual
+  
   if (index >= totalSlides) {
     currentSlide = 0;
   } else if (index < 0) {
@@ -13,7 +13,7 @@ function showSlide(index) {
     currentSlide = index;
   }
 
-  // Move os slides
+ 
   const offset = -currentSlide * 100;
   document.querySelector('.slides').style.transform = `translateX(${offset}%)`;
 }
@@ -26,5 +26,5 @@ function prevSlide() {
   showSlide(currentSlide - 1);
 }
 
-// Inicializa o carrossel
+
 showSlide(0);
