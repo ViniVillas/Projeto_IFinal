@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A3 MOTORS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="title">A3 MOTORS</div>
+    <nav>
+      <a href="login.php" class="button">Registrar Veículo</a>
+
+    </nav>
+  </header>
+  <main>
+    <section class="carousel">
+      <!-- Botões do carrossel -->
+      <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
+      <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
+  
+      <!-- Contêiner dos slides -->
+      <div class="slides">
+        <!-- Ferrari -->
+        <div class="car-info">
+          <img src="Ferrari.logo.png" alt="Logo do carro" class="ferrari-logo">
+          <img src="Ferrari.car.png" alt="Imagem do carro" class="ferrari-image">
+          <div class="car-name">
+            <p>Ferrari F8</p>
+          </div>
+          <div class="car-description">
+            <p>Se trata de um carro extremamente exotico e rapido.</p>
+          </div>
+        </div>
+        
+        
+        <!-- Gordon T50 -->
+        <div class="car-info">
+          <img src="Gordon.logo.png" alt="Logo do carro" class="gordon-logo">
+          <img src="gordon.car.png" alt="Imagem do carro" class="gordon-image">
+          <div class="car-name">
+            <p>T50</p>
+          </div>
+          <div class="car-description">
+            <p>Um carro muito raro e unico.</p>
+          </div>
+        </div>
+  
+        <!-- McLaren -->
+        <div class="car-info">
+          <img src="Mclaren.logo.png" alt="Logo do carro" class="mclaren-logo">
+          <img src="Mclaren.car.png" alt="Imagem do carro" class="mclaren-image">
+          <div class="car-name">
+            <p>765LT</p>
+          </div>
+          <div class="car-description">
+            <p>Velocidade é seu nome do meio.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
