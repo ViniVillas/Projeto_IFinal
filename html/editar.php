@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
 <head>
     <title>Editar Veículo</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="php_style.css">
 </head>
 <body>
     <div class="container">
