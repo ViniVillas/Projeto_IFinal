@@ -17,7 +17,7 @@ $result = mysqli_query($conn, $sql);
 <html>
 <head>
     <title>Estoque</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="php_style.css">
 </head>
 <body>
     <div class="container">
