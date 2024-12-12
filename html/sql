@@ -1,0 +1,25 @@
+DROP DATABASE IF EXISTS proj;
+CREATE DATABASE proj;
+USE proj;
+
+CREATE TABLE veiculos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    ano INT NOT NULL,
+    quilometros INT NOT NULL,
+    preco DECIMAL(10, 2) NOT NULL
+);
+INSERT INTO veiculos (nome, ano, quilometros, preco) VALUES
+('Fiat Uno', 2015, 50000, 15000.00),
+('Volkswagen Gol', 2018, 20000, 25000.00),
+('Chevrolet Onix', 2020, 10000, 30000.00);
+
+CREATE TABLE usuarios (
+  id INT AUTO_INCREMENT,
+  nome VARCHAR(50) NOT NULL,
+  senha VARCHAR(50) NOT NULL,
+  PRIMARY KEY (id)
+);
+INSERT INTO usuarios (nome, senha) VALUES ('alex', '1020');
+
+select * from veiculos
