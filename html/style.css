@@ -160,20 +160,4 @@ main {
 }
 
 
-/*BOTÃO SAIBA MAIS*/
-.more-info-btn {
-  padding: 10px 20px;
-  background-color: #000;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 1em;
-  cursor: pointer;
-  margin-top: 10px;
-  transition: background-color 0.3s, transform 0.2s;
-}
 
-.more-info-btn:hover {
-  background-color: #333;
-  transform: scale(1.05);
-}
